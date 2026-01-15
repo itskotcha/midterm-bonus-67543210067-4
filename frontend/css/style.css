@@ -1,0 +1,42 @@
+/* Same as Layered version - copy from LIBRARY_UI_PACKAGE.md */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #667eea;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #667eea;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 15px;
+    background: #f3f4f6;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* ... (copy all CSS from LIBRARY_UI_PACKAGE.md) ... */
